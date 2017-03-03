@@ -1,3 +1,9 @@
 let chalk = require('chalk');
 
-console.log(chalk.green('Hello world'));
+let nearest0Temperature = () => {
+  return 42;
+}
+
+module.exports = {
+  nearest0Temperature: nearest0Temperature
+};
